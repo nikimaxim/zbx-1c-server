@@ -21,7 +21,7 @@ Param (
 $srvinfo = $("C:\Program Files (x86)\1cv8\srvinfo", "C:\Program Files\1cv8\srvinfo")
 # Cluster *.lst
 $conf_cluster = $("1cv8wsrv.lst")
-# Custer DB *.lst
+# Cluster DB *.lst
 $conf_cluster_db = $("1CV8Clst.lst", "1CV8Clsto.lst")
 
 

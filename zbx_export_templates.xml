@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
-    <version>4.4</version>
-    <date>2019-10-24T04:53:10Z</date>
+    <version>5.0</version>
+    <date>2020-12-17T10:37:22Z</date>
     <groups>
         <group>
             <name>Templates Users</name>
@@ -11,6 +11,19 @@
         <template>
             <template>Template App 1C Service</template>
             <name>Template App 1C Service</name>
+            <description>#&#13;
+#    .VERSION&#13;
+#    0.1&#13;
+#&#13;
+#    .DESCRIPTION&#13;
+#    Author: Nikitin Maksim&#13;
+#    Github: https://github.com/nikimaxim/zbx-1c-server.git&#13;
+#    Note: Zabbix template for monitoring 1c server&#13;
+#&#13;
+#    .SUPPORTED&#13;
+#    PowerShell: 2.0 and later&#13;
+#    1C Server: 8.3 and later&#13;
+#</description>
             <groups>
                 <group>
                     <name>Templates Users</name>
@@ -188,7 +201,7 @@
                 </discovery_rule>
                 <discovery_rule>
                     <name>1C service discovery</name>
-                    <key>service.discovery</key>
+                    <key>1c.service.discovery</key>
                     <delay>1h</delay>
                     <filter>
                         <evaltype>AND</evaltype>
